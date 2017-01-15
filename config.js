@@ -34,37 +34,12 @@ var config = {
 			}
 		},
 		{
-			module: 'compliments',
-			position: 'bottom_bar',
-			config: {
-				updateInterval: '1800000',
-				compliments: {
-					morning: [
-						'What a beautiful morning!',
-						'Enjoy your day!',
-						'Good Morning!',
-						'How was your sleep?'
-						],
-					afternoon: [
-						'Hey good lookin!',
-						'Looking good today!',
- 						'You\'re doing great!',
-						'Looking good!'
-						],
-					evening: [
-						'Wow, you look great!',
-						'You look nice!'
-						]
-					}
-				}
-		},
-		{
                         module: 'MMM-WunderGround',
                         position: 'top_left',
-                        header: 'WEATHER FORECAST - Firestone',
+                        header: 'WEATHER FORECAST - Pittsfield',
                         config: {
                                 apikey: '4305987481d7cc5a',
-                                pws: 'CO/Firestone',
+                                pws: 'IL/Pittsfield',
                                 fcdaycount: '3',
 				UseCardinals: 1,
                                 }
@@ -91,11 +66,11 @@ var config = {
                 },
 		{
                         module: 'currentweather',
-                        header: 'PITTSFIELD',
+                        header: 'Firestone',
                         position: 'top_left',
                         config: {
-                                location: 'IL/Pittsfield',
-                                locationID: '4247060',  //ID from http://www.op$
+                                location: 'CO/Firestone',
+                                locationID: '5577008',  //ID from http://www.op$
                                 appid: '088d61e4f215b53e21c3cff9d7fc2009'
                         }
                 },
